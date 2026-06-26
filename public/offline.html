@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offline - Dhuapalong Govt. Primary School</title>
+  <style>
+    body {
+      font-family: 'Inter', 'Hind Siliguri', sans-serif;
+      background-color: #F8FAFC;
+      color: #1E293B;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 400px;
+      padding: 2rem;
+    }
+    .icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 1.5rem;
+      background-color: #E8F0F8;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon svg {
+      width: 32px;
+      height: 32px;
+      color: #0F4C81;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #1E293B;
+    }
+    p {
+      color: #64748B;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+    button {
+      background-color: #0F4C81;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #0C3D67;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636a9 9 0 010 12.728m-2.829-2.829a5 5 0 000-7.07m-4.243 2.121a2 2 0 112.829 2.829M9 12a3 3 0 116 0m-3 3v.01M12 17h.01" />
+      </svg>
+    </div>
+    <h1>ইন্টারনেট সংযোগ নেই</h1>
+    <p>আপনার ইন্টারনেট সংযোগ বিচ্ছিন্ন রয়েছে। অনুগ্রহ করে সংযোগ পুনরুদ্ধার করুন এবং আবার চেষ্টা করুন।</p>
+    <button onclick="window.location.reload()">আবার চেষ্টা করুন</button>
+  </div>
+</body>
+</html>

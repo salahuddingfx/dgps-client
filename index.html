@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0F4C81" />
+    <meta name="description" content="Dhuapalong Government Primary School - Quality primary education since 1965 in Cox's Bazar, Bangladesh." />
+    <meta name="keywords" content="government primary school, Dhuapalong school, Cox's Bazar school, primary education Bangladesh" />
+    <meta property="og:title" content="Dhuapalong Govt. Primary School" />
+    <meta property="og:description" content="Quality primary education since 1965 in Cox's Bazar, Bangladesh." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="%VITE_APP_URL%/og-image.jpg" />
+    <meta property="og:url" content="%VITE_APP_URL%" />
+    <meta property="og:site_name" content="Dhuapalong Govt. Primary School" />
+    <meta property="og:locale" content="bn_BD" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dhuapalong Govt. Primary School" />
+    <meta name="twitter:description" content="Quality primary education since 1965 in Cox's Bazar, Bangladesh." />
+    <meta name="twitter:image" content="%VITE_APP_URL%/og-image.jpg" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="DGPS" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" />
+    <title>Dhuapalong Govt. Primary School | Quality Education for All</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>This website requires JavaScript to run. Please enable JavaScript in your browser.</noscript>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered:', registration.scope);
+            })
+            .catch((error) => {
+              console.log('SW registration failed:', error);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>
