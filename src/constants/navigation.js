@@ -65,7 +65,6 @@ export const NAV_LINKS = [
   { label: "Routine", path: "/routine" },
   { label: "Notices", path: "/notices", badge: true },
   { label: "Gallery", path: "/gallery" },
-  { label: "Donate", path: "/donate" },
   { label: "Contact", path: "/contact" },
   { label: "Student Portal", path: "/login" },
 ];
