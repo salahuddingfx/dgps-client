@@ -65,11 +65,9 @@ export const NAV_LINKS = [
   { label: "Routine", path: "/routine" },
   { label: "Notices", path: "/notices", badge: true },
   { label: "Gallery", path: "/gallery" },
-  { label: "Transport", path: "/transport" },
-  { label: "Library", path: "/library" },
   { label: "Donate", path: "/donate" },
   { label: "Contact", path: "/contact" },
-  { label: "Student Portal", path: "/student/login" },
+  { label: "Student Portal", path: "/login" },
 ];
 
 export { PRINCIPAL_INFO, STATS, FACILITIES, TEACHERS, NOTICES, NEWS, EVENTS, GALLERY_ALBUMS, ACHIEVEMENTS, TESTIMONIALS, FAQS, DOWNLOADS, HERO_SLIDES } from "./data";
@@ -113,8 +111,6 @@ export const FOOTER_LINKS = {
   ],
   explore: [
     { label: "Virtual Tour", path: "/virtual-tour" },
-    { label: "Transport", path: "/transport" },
-    { label: "Library", path: "/library" },
     { label: "Testimonials", path: "/testimonials" },
     { label: "Donate", path: "/donate" },
   ],

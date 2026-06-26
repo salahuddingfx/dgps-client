@@ -10,6 +10,9 @@ const AcademicClassPage = lazy(() => import("../pages/AcademicClassPage"));
 const TeachersPage = lazy(() => import("../pages/TeachersPage"));
 const FacilitiesPage = lazy(() => import("../pages/FacilitiesPage"));
 const AdmissionPage = lazy(() => import("../pages/AdmissionPage"));
+const AdmissionFormPage = lazy(() => import("../pages/AdmissionFormPage"));
+const ResultsPage = lazy(() => import("../pages/ResultsPage"));
+const ClassRoutinePage = lazy(() => import("../pages/ClassRoutinePage"));
 const NoticesPage = lazy(() => import("../pages/NoticesPage"));
 const NewsPage = lazy(() => import("../pages/NewsPage"));
 const NewsDetailPage = lazy(() => import("../pages/NewsDetailPage"));
@@ -25,16 +28,11 @@ const RefundPolicyPage = lazy(() => import("../pages/RefundPolicyPage"));
 const CookiePolicyPage = lazy(() => import("../pages/CookiePolicyPage"));
 const DisclaimerPage = lazy(() => import("../pages/DisclaimerPage"));
 const ChildrenPolicyPage = lazy(() => import("../pages/ChildrenPolicyPage"));
-const TransportPage = lazy(() => import("../pages/TransportPage"));
-const LibraryPage = lazy(() => import("../pages/LibraryPage"));
 const DonationPage = lazy(() => import("../pages/DonationPage"));
 const VirtualTourPage = lazy(() => import("../pages/VirtualTourPage"));
 const TestimonialsPage = lazy(() => import("../pages/TestimonialsPage"));
 const EventsCalendarPage = lazy(() => import("../pages/EventsCalendarPage"));
 const DeveloperPage = lazy(() => import("../pages/DeveloperPage"));
-const AdmissionFormPage = lazy(() => import("../pages/AdmissionFormPage"));
-const ResultsPage = lazy(() => import("../pages/ResultsPage"));
-const ClassRoutinePage = lazy(() => import("../pages/ClassRoutinePage"));
 const NotFoundPage = lazy(() => import("../pages/NotFoundPage"));
 
 const LoginPage = lazy(() => import("../pages/auth/LoginPage"));
@@ -46,7 +44,6 @@ const EmailSentPage = lazy(() => import("../pages/auth/EmailSentPage"));
 const AccountPendingPage = lazy(() => import("../pages/auth/AccountPendingPage"));
 const UnauthorizedPage = lazy(() => import("../pages/auth/UnauthorizedPage"));
 
-const PortalLoginPage = lazy(() => import("../pages/student/PortalLoginPage"));
 const StudentDashboard = lazy(() => import("../pages/student/StudentDashboard"));
 const StudentResults = lazy(() => import("../pages/student/StudentResults"));
 const StudentAttendance = lazy(() => import("../pages/student/StudentAttendance"));
@@ -79,8 +76,6 @@ export const routes = [
   { path: "/cookie-policy", element: CookiePolicyPage },
   { path: "/disclaimer", element: DisclaimerPage },
   { path: "/children-policy", element: ChildrenPolicyPage },
-  { path: "/transport", element: TransportPage },
-  { path: "/library", element: LibraryPage },
   { path: "/donate", element: DonationPage },
   { path: "/virtual-tour", element: VirtualTourPage },
   { path: "/testimonials", element: TestimonialsPage },
@@ -96,7 +91,6 @@ export const routes = [
   { path: "/account-pending", element: AccountPendingPage },
   { path: "/unauthorized", element: UnauthorizedPage },
 
-  { path: "/student/login", element: PortalLoginPage, guest: true },
   { path: "/student/dashboard", element: StudentDashboard, student: true },
   { path: "/student/results", element: StudentResults, student: true },
   { path: "/student/attendance", element: StudentAttendance, student: true },
